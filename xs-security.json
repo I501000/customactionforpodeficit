@@ -1,0 +1,13 @@
+{
+    "xsappname": "deficitaction",
+    "tenant-mode": "dedicated",
+    "scopes": [
+        {
+            "name": "$XSAPPNAME.scopefordeficitaction",
+            "description": "Scope required to access webhook endpoint"
+        }
+    ],
+    "authorities": [
+        "$XSAPPNAME.scopefordeficitaction"
+    ]
+}

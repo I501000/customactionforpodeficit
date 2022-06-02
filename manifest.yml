@@ -1,0 +1,9 @@
+---
+applications:
+  - name: deficitaction
+    memory: 256M
+    routes:
+      - route: deficitaction.cfapps.eu10.hana.ondemand.com
+    services:
+      - deficitaction-uaa
+      - deficitaction-dest
